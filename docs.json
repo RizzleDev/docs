@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "palm",
+  "theme": "linden",
   "name": "Birdb",
   "colors": {
     "primary": "#16A34A",
@@ -28,6 +28,7 @@
               {
                 "tab": "Get Started",
                 "pages": [
+                  "getting-started",
                   "commands"
                 ]
               },
@@ -40,8 +41,7 @@
               {
                 "tab": "Help Center",
                 "pages": [
-                  "buying-and-enabling-plus-guide",
-                  "untitled-page"
+                  "buying-and-enabling-plus-guide"
                 ]
               }
             ]
