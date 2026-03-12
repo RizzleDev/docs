@@ -35,7 +35,8 @@
               {
                 "tab": "Features",
                 "pages": [
-                  "auto-moderation"
+                  "auto-moderation",
+                  "server-statistics"
                 ]
               },
               {

@@ -1,0 +1,75 @@
+---
+title: "Server Statistics"
+---
+
+Track and display comprehensive server statistics
+
+<Check>
+  Requires **Manage Channels** permission
+</Check>
+
+<Frame>
+  ![Serverstats](/images/serverstats.png)
+</Frame>
+
+## Viewing Server Statistics
+
+<Steps>
+  <Step title="View member count graph">
+    Use `/graph members` to view a graph of your server’s member count over time
+  </Step>
+  <Step title="View join count graph">
+    Use `/graph joins` to view a graph of how many members have joined your server over time
+  </Step>
+  <Step title="View message count graph">
+    Use `/graph messages` to view a graph of message activity in your server
+  </Step>
+  <Step title="View All Server Statistics">
+    use /serverstatistics to view all of them
+  </Step>
+</Steps>
+
+## Advanced Message Statistics
+
+View channel-specific statistics
+
+Use `/graph messages channel:` to view message statistics for a specific channel
+
+- `channel:` = The channel to view statistics for
+
+```text
+/graph messages channel: #general
+```
+
+2
+
+View user-specific statistics
+
+Use `/graph messages user:` to view message statistics for a specific user
+
+- `user:` = The user to view statistics for
+
+```text
+/graph messages user: @User123
+```
+
+3
+
+View user statistics in a channel
+
+Use `/graph messages channel: user:` to view a user’s statistics in a specific channel
+
+- `channel:` = The channel to view statistics for
+- `user:` = The user to view statistics for
+
+```text
+/graph messages channel: #general user: @User123
+```
+
+## How Statistics Work
+
+- Statistics are automatically collected and updated every 15 seconds
+- Graphs show data from days when Birbd has been in your server
+- Message statistics include total messages, channel breakdowns, and user activity
+- Member statistics track joins, leaves, and total member count
+- All graphs are generated as images for easy sharing
