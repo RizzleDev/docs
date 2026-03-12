@@ -1,4 +1,169 @@
 ---
-title: 'AutoModeration'
+title: "AutoModeration"
 ---
 
+# Auto Moderation
+
+Birbd's **Auto Moderation** system automatically monitors messages and protects your server from spam, harmful content, and rule violations.
+
+It helps keep your community safe without requiring constant manual moderation.
+
+---
+
+## What Auto Moderation Can Do
+
+Birbd Auto Moderation can automatically:
+
+- 🚫 Block banned words
+- 🔁 Detect spam messages
+- 🔗 Prevent malicious or unwanted links
+- 🔊 Stop excessive mentions
+- 🤖 Detect bot-like spam behavior
+- ⚠️ Warn or punish users who break rules
+
+---
+
+## Setting Up Auto Moderation
+
+Setting up Auto Moderation only takes a few steps.
+
+### Step 1 — Run the Setup Command
+
+Run the following command in your server:
+
+```text
+/automod setup
+```
+
+This will create the required configuration and enable the Auto Moderation system.
+
+---
+
+### Step 2 — Choose a Moderation Channel
+
+Birbd needs a channel to send moderation logs.
+
+Use:
+
+```text
+/automod log-channel channel:#moderation-logs
+```
+
+All Auto Moderation actions will be logged there.
+
+---
+
+### Step 3 — Enable Filters
+
+You can enable specific moderation filters depending on your server’s needs.
+
+Example:
+
+```text
+/automod enable spam
+/automod enable links
+/automod enable mentions
+/automod enable banned-words
+```
+
+---
+
+## Auto Moderation Filters
+
+### Spam Protection
+
+Detects users sending messages too quickly.
+
+**Example triggers**
+
+- Sending many messages in a short time
+- Repeating the same message multiple times
+
+**Command**
+
+```text
+/automod enable spam
+```
+
+---
+
+### Banned Words Filter
+
+Blocks messages containing prohibited words.
+
+**Add a word to the banned list**
+
+```text
+/automod add-word word:<word>
+```
+
+**Remove a word**
+
+```text
+/automod remove-word word:<word>
+```
+
+**View banned words**
+
+```text
+/automod list-words
+```
+
+---
+
+### Link Protection
+
+Prevents users from posting malicious or unwanted links.
+
+**Enable link filter**
+
+```text
+/automod enable links
+```
+
+**Add exceptions** (e.g., allowed domains)
+
+```text
+/automod allow-link domain:<domain>
+```
+
+---
+
+### Mention Spam Protection
+
+Limits excessive mentions in a short period to prevent spam.
+
+**Enable mention filter**
+
+```text
+/automod enable mentions
+```
+
+**Set mention limit**
+
+```text
+/automod set-mention-limit limit:<number>
+```
+
+---
+
+## Viewing Logs
+
+All Auto Moderation actions are logged in your moderation channel:
+
+```text
+/automod view-logs
+```
+
+---
+
+## Tips for Using Auto Moderation
+
+- ⚡ Start with basic filters, then enable more advanced ones as needed.
+- 📝 Regularly review logs to adjust filters.
+- 🔧 Customize actions for each filter (warn, timeout, kick, or ban).
+- 👥 Communicate rules to your community to reduce false positives.
+
+---
+
+Auto Moderation helps keep your server safe and reduces the need for constant manual intervention. Configure it wisely and your community will thank you!
