@@ -56,6 +56,10 @@
       {
         "label": "Support",
         "href": "mailto:hi@mintlify.com"
+      },
+      {
+        "label": "Premium",
+        "href": "https://birbdbot.dev/premium"
       }
     ],
     "primary": {
