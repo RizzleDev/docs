@@ -34,14 +34,14 @@
             "pages": [
               "auto-moderation"
             ]
+          },
+          {
+            "tab": "Help Center",
+            "pages": [
+              "buying-and-enabling-plus-guide",
+              "Modal-Time-Out"
+            ]
           }
-        ]
-      },
-      {
-        "anchor": "Help Center",
-        "pages": [
-          "buying-and-enabling-plus-guide",
-          "untitled-page"
         ]
       }
     ]
