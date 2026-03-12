@@ -36,6 +36,13 @@
             ]
           }
         ]
+      },
+      {
+        "anchor": "Help Center",
+        "pages": [
+          "buying-and-enabling-plus-guide",
+          "untitled-page"
+        ]
       }
     ]
   },
