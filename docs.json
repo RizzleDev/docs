@@ -36,7 +36,8 @@
               "auto-moderation",
               "server-statistics",
               "leveling",
-              "sticky-messages"
+              "sticky-messages",
+              "untitled-page"
             ]
           },
           {
