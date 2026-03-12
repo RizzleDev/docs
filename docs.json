@@ -26,20 +26,25 @@
             "tab": "Get Started",
             "pages": [
               "getting-started",
-              "commands"
+              "commands",
+              "inviting-birbd"
             ]
           },
           {
             "tab": "Features",
             "pages": [
               "auto-moderation",
-              "server-statistics"
+              "server-statistics",
+              "leveling",
+              "sticky-messages"
             ]
           },
           {
             "tab": "Help Center",
             "pages": [
-              "buying-and-enabling-plus-guide"
+              "buying-and-enabling-plus-guide",
+              "manage-your-premium-subscription",
+              "transferring-your-premium-subscription"
             ]
           }
         ]
