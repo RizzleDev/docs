@@ -12,9 +12,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Website",
           "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
+          "href": "https://birbdbot.dev"
         }
       ]
     },
@@ -25,7 +25,6 @@
           {
             "tab": "Get Started",
             "pages": [
-              "untitled-page",
               "commands"
             ]
           },
@@ -39,7 +38,7 @@
             "tab": "Help Center",
             "pages": [
               "buying-and-enabling-plus-guide",
-              "Modal-Time-Out"
+              "untitled-page"
             ]
           }
         ]
