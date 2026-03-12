@@ -18,27 +18,32 @@
         }
       ]
     },
-    "anchors": [
+    "dropdowns": [
       {
-        "anchor": "Home",
-        "tabs": [
+        "dropdown": "Home",
+        "anchors": [
           {
-            "tab": "Get Started",
-            "pages": [
-              "commands"
-            ]
-          },
-          {
-            "tab": "Features",
-            "pages": [
-              "auto-moderation"
-            ]
-          },
-          {
-            "tab": "Help Center",
-            "pages": [
-              "buying-and-enabling-plus-guide",
-              "untitled-page"
+            "anchor": "Home",
+            "tabs": [
+              {
+                "tab": "Get Started",
+                "pages": [
+                  "commands"
+                ]
+              },
+              {
+                "tab": "Features",
+                "pages": [
+                  "auto-moderation"
+                ]
+              },
+              {
+                "tab": "Help Center",
+                "pages": [
+                  "buying-and-enabling-plus-guide",
+                  "untitled-page"
+                ]
+              }
             ]
           }
         ]
