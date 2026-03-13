@@ -1,0 +1,82 @@
+---
+title: "Server Backups"
+icon: "crown"
+---
+
+Birbd offers **Server Backups**, a premium feature that allows you to save, restore, and manage your server data easily.
+
+<Note>
+  ⚠️ This feature is available only for premium subscribers.
+</Note>
+
+---
+
+## What Server Backups Can Do
+
+With Server Backups, you can:
+
+- 💾 Save your server's channels, roles, and settings
+- 🔄 Restore your server in case of mistakes or crashes
+- 🗂 Manage multiple backup versions
+- ⏱ Schedule automatic backups
+
+This ensures that your server remains safe and recoverable at all times.
+
+---
+
+## Setting Up Server Backups
+
+### Step 1 — Ensure Premium Status
+
+Only premium servers can use this feature. Verify your server's premium status using:
+
+/premium status
+
+If your server is not premium, you will need to upgrade first.
+
+---
+
+### Step 2 — Create a Backup
+
+To create a backup of your server, use:
+
+/backup create name:\<backup-name\>
+
+This will save your server's current configuration.
+
+---
+
+### Step 3 — Restore a Backup
+
+To restore a backup:
+
+/backup restore name:\<backup-name\>
+
+> ⚠️ Restoring a backup will overwrite your current server settings and channels.
+
+---
+
+### Step 4 — Manage Backups
+
+- **List Backups**
+
+/backup list
+
+- **Delete a Backup**
+
+/backup delete name:\<backup-name\>
+
+- **Schedule Automatic Backups**
+
+/backup schedule interval:\<time\>
+
+---
+
+## Tips for Using Server Backups
+
+- 🗂 Keep multiple backups for different stages of your server.
+- 🔄 Test backups periodically to ensure they restore correctly.
+- ⏱ Schedule backups during low activity periods to avoid disruption.
+- 🛡 Only premium servers can access scheduled backups.
+
+Server Backups help keep your server safe and give you peace of mind knowing you can always restore your community to a previous state.
